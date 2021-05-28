@@ -21,10 +21,10 @@ class BLT:
     def scan(self):
         print("[*] Scanning...")
 
-    @staticmethod
-    def list_usb_devices():
-        "lsusb | egrep -i 'blue'"
-        "hciconfig"
+    # @staticmethod
+    # def list_usb_devices():
+    #     "lsusb | egrep -i 'blue'"
+    #     "hciconfig"
 
     @staticmethod
     def hcitool_scan():
